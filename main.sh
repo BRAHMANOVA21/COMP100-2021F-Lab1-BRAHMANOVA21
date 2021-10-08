@@ -1,4 +1,4 @@
-#!/bin/sh
+ mkdir#!/bin/sh
 rm -r profiles2021
 rm greeting.sh
 echo '#!/bin/sh' >> greeting.sh
@@ -9,12 +9,11 @@ rm ids.txt
 #### DO NOT EDIT ANYTHING ABOVE THIS LINE #####
 #### ==================================== #####
 
+touch quiz.sh
+echo '#!/bin/sh' >> quiz.sh
+chmod a+rwx quiz.sh
 
-# Command for Q1
 
-# Command for Q2
+ cp ./profiles2020/*>>profiles2021
 
-# Command for Q3
-
-# Command for Q4
-
+cat ./profiles2021/binazir.txt
